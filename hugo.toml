@@ -1,0 +1,32 @@
+baseURL = 'https://noahrod.github.io/'
+canonifyURLs = true
+languageCode = 'en-us'
+title = 'Julie and Noe'
+theme = "fairy-hugo"
+enableRobotsTXT = true
+
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  showSingleFeaturedImage = true
+  googleAnalytics = ""
+  description = "Our life together"
+  author = "Noe Rodriguez"
+  showTopHeader = false
+  showSearchButton = false
+  sidebarBlogPage = "right-sidebar"
+  showBreadcrumb = true
+  showGoToTop = true
+  showComments = true
+  primaryColor = "#1784AC"      # Main accent color
+  logo = "logo.png"
+  favicon = "favicon.png"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
