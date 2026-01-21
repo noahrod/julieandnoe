@@ -1,8 +1,8 @@
 ---
-title: "Elena's Gender Reveal Game"
+title: "Second Baby Rodriguez Gender Reveal Game"
 slug: elenas-gender-reveal-game
 date: 2023-09-16T18:47:00
-categories: []
+categories: ["Celebrations"]
 featured_image: "/images/boyorgirl.png"
 images: 
   - "/images/boyorgirl.png"

@@ -1,0 +1,44 @@
+<script type="text/javascript">
+function check_answers(){
+  var code1 = jQuery("#clue1passwd").val();
+  var code2 = jQuery("#clue2passwd").val();
+  var code3 = jQuery("#clue3passwd").val();
+  if(code1 == 2016 && code2 == 14 && code3==2028){
+    $("#lock_picture").attr("srcset","");
+    $("#lock_picture").attr("src","/images/lock.gif");
+    setTimeout( function(){ 
+    $("#lock_picture").attr("src","/images/its-a-boy.gif");
+  }  , 5000 );
+    var audio = new Audio('/mariachiloco.m4a');
+    audio.play();
+  }else{
+    alert("Ooops! That's not right, please try again.        Ooops! No todas las respuestas son correctas, intenta de nuevo porfa.")
+  }
+}
+</script>
+<center><img src="/images/lock.jpg" alt="" class="wp-image-31" id="lock_picture"></center>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="number" id="clue1passwd" name="clue1passwd" min="1" max="1000" placeholder="Code #1">
+                    </td>
+                    <td>
+                        <input type="number" id="clue2passwd" name="clue2passwd" min="1" max="1000" placeholder="Code #2">
+                    </td>
+                    <td>
+                        <input type="number" id="clue3passwd" name="clue3passwd" min="1" max="1000" placeholder="Code #3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <center><input type="button" value="submit" id="check_password" onclick="check_answers()"></center>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</form>
+
+<img src="/images/lock.gif" style="position: absolute; top:-10000000px;"/>
+<img src="/images/its-a-boy.gif" style="position: absolute; top:-10000000px;"/>
