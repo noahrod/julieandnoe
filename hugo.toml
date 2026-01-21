@@ -1,10 +1,9 @@
-baseURL = 'https://noahrod.github.io/julieandnoe'
-canonifyURLs = true
+baseURL = 'https://julieandnoe.thenoahnoah.com/'
+canonifyURLs = false
 languageCode = 'en-us'
 title = 'Julie and Noe'
 theme = "fairy-hugo"
 enableRobotsTXT = true
-
 
 [pagination]
   pagerSize = 10
