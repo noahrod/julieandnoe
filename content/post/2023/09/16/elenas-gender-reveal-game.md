@@ -8,4 +8,4 @@ images:
   - "/images/boyorgirl.png"
 author: Noe Rodriguez
 ---
-
+{{< iframe src="/genderReveal/" width="100%" height="870px" frameborder="0" style="border:0" >}}
