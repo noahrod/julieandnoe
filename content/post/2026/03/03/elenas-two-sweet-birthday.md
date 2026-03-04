@@ -1,5 +1,5 @@
 ---
-title: "Elena's Two Sweet Birthday Pawty!"
+title: "Elena's Two Sweet Birthday Party!"
 slug: elenas-two-sweet-birthday
 date: 2026-03-03T20:58:51
 categories: ["Celebrations"]
